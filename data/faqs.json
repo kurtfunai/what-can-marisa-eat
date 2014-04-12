@@ -1,0 +1,32 @@
+{
+  "faqs": [
+    {
+      "question": "Is Marisa a vegetarian?",
+      "answer": "No, she eats pretty much any land animal and also fish. Have no fear about throwing some meat on the BBQ, or in a stir-fry."
+    },
+    {
+      "question": "You said she is allergic to some vegetables, are cooked vegetables fine?",
+      "answer": "Yup, totally. Steamed, roasted, in a stir-fry, or on the BBQ. Cooked veggies are a safe bet unless listed above."
+    },
+    {
+      "question": "Salads are raw, should I avoid making one?",
+      "answer": "Salads are usually a safe bet. Despite the allergy to certain raw vegetables, lettuce/tomatoes/cucumbers/onions are ok. Bonus points if you have a garlic dressing."
+    },
+    {
+      "question": "Does rice have gluten?",
+      "answer": "Nope! Marisa thoroughly enjoys basmati or wild rice."
+    },
+    {
+      "question": "Can Marisa eat cheese?",
+      "answer": "Yes. Use all the cheese you want. The more the better."
+    },
+    {
+      "question": "Is it rude if I want to serve some shellfish/peanut dish for supper?",
+      "answer": "No problem! Just let us know and we will happily bring something safe to cook up for Marisa."
+    },
+    {
+      "question": "Marisa is allergic to shellfish but I've seen her eat oysters/mussels/clams.",
+      "answer": "Despite the shell, clams, oysters, scallops, and mussels are all mollusks. Totally safe."
+    }
+  ]
+}

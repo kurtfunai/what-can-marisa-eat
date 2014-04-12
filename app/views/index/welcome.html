@@ -1,0 +1,44 @@
+<div class="row">
+  <p class="lead">So you've invited Marisa over for supper, and suddenly you remember that she has a long list of dietary restrictions. Panic sets in.
+  </p>
+  <p class="lead"></p>
+  <p class="lead">Is she a vegetarian? Isn't she allergic to vegetables? What does this girl even eat? How are you going to prepare a meal without the fear of accidental manslaughter?</p>
+</div>
+
+<hr>
+<div class="row" id="allergies">
+  <h2>Severe Allergies</h2>
+  <p class="lead">Well, I know this is supposed to be what Marisa CAN eat, but let's start with the things that she really can't. These things require an EpiPen and a quick drive to the hospital. Dinner party morale would take a serious nose dive.</p>
+  <div class="bg-danger">
+    <dl class="lead" ng-repeat="allergy in allergies['severe_allergies']">
+      <dt class="text-danger">{{allergy.allergy}}</dt>
+      <dd class="text-muted"><small>{{allergy.description}}</small></dd>
+    </dl>
+  </div>
+</div>
+
+<hr>
+<div class="row">
+  <h2>Food Allergies / Sensitivities</h2>
+  <p class="lead">These are things that make Marisa sick to her stomach. Non-life threatening. She may complain about being bloated, and general crankiness/fatigue may follow.</p>
+  <div class="bg-danger">
+    <dl class="" ng-repeat="allergy in allergies['food_allergies']">
+      <dt class="text-danger">{{allergy.allergy}}</dt>
+      <dd class="text-muted">{{allergy.description}}</dd>
+    </dl>
+  </div>
+</div>
+
+<hr>
+<div class="row" id="faq">
+  <h2>Okay, so... WTF do I cook?!? <small>(also known as FAQ)</small></h2>
+  <p class="lead">I'm sure you're thinking "Thanks, but are you ever going to tell me what she CAN eat? You've cut off half the foods on the planet!". Don't worry, I'm here to help clear up some misconceptions and give some helpful ideas.</p>
+  
+
+  <div class="bg-danger">
+    <dl class="" ng-repeat="faq in faqs">
+      <dt class=""><strong>Q:</strong> {{faq.question}}</dt>
+      <dd class=""><strong>A:</strong> {{faq.answer}}</dd>
+    </dl>
+  </div>
+</div>

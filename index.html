@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>What Can Marisa Eat?</title>
+  <!-- Lib CSS -->
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="app/css/global.css">
+</head>
+<body ng-app="foods">
+  <div class="container">
+    <div class="header">
+      <ul class="nav nav-pills pull-right">
+        <li><a href="#allergies">Foods</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+      <h2 class="text-muted"><a ui-sref="welcome">What CAN Marisa Eat?</a></h2>
+    </div>
+    
+    <div class="content">
+      <div ui-view></div>
+    </div>
+    <div class="clear"></div>
+
+    <div class="footer">
+      <p><a href="http://kurtfunai.com">kurtfunai.com</a></p>
+    </div>
+
+  </div> <!-- /container -->
+  
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+
+  <!-- BootStrap -->
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  <!-- foods App -->
+  <script src="app/js/app.js"></script>
+  <!-- Controllers -->
+  <script src="app/js/controllers/foods_ctrl.js"></script>
+
+</body>
+</html>
