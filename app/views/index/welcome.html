@@ -34,11 +34,30 @@
   <h2>Okay, so... WTF do I cook?!? <small>(also known as FAQ)</small></h2>
   <p class="lead">I'm sure you're thinking "Thanks, but are you ever going to tell me what she CAN eat? You've cut off half the foods on the planet!". Don't worry, I'm here to help clear up some misconceptions and give some helpful ideas.</p>
   
-
   <div class="bg-danger">
     <dl class="" ng-repeat="faq in faqs">
       <dt class=""><strong>Q:</strong> {{faq.question}}</dt>
       <dd class=""><strong>A:</strong> {{faq.answer}}</dd>
     </dl>
   </div>
+</div>
+
+<hr>
+<div class="row" id="recipes">
+  <h2>Recipe Suggestions <small>(more coming soon...)</small></h2>
+  <p class="lead">So, now you know what she can eat but you're at a loss for inspiration. It turns out you can't make that peanut-topped-crab-cake surprise you had dreamed up. Here's a couple sites that Marisa usually gets recipes from. 
+  </p>
+  <p class="lead"><small>Beware: a lot of these recipes do have almonds and will need avoided.</small></p>
+  
+  <div class="bg-danger">
+    <dl class="" ng-repeat="site in recipeSites">
+      <dt class="">{{site.description}}</dt>
+      <dd class=""><a href="{{site.url}}" target="_blank">{{site.url}}</a></dd>
+    </dl>
+  </div>
+</div>
+
+<hr>
+<div class="row" id="recipes">
+  <h2 class="text-center">Hope this helped!</h2>
 </div>

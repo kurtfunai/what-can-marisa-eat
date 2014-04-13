@@ -1,0 +1,16 @@
+{
+  "recipe_sites": [
+    {
+      "description": "PaleOMG",
+      "url": "http://paleomg.com/"
+    },
+    {
+      "description": "Oh She Glows",
+      "url": "http://ohsheglows.com/"
+    },
+    {
+      "description": "Elana's Pantry",
+      "url": "http://www.elanaspantry.com/"
+    }
+  ]
+}

@@ -8,11 +8,12 @@
   <link rel="stylesheet" href="app/css/global.css">
 </head>
 <body ng-app="foods">
-  <div class="container">
+  <div class="container" ng-controller="NavCtrl">
     <div class="header">
       <ul class="nav nav-pills pull-right">
-        <li><a href="#allergies">Foods</a></li>
-        <li><a href="#faq">FAQ</a></li>
+        <li><a ng-click="scrollTo('allergies')">Foods</a></li>
+        <li><a ng-click="scrollTo('faq')">FAQ</a></li>
+        <li><a ng-click="scrollTo('recipes')">Recipes</a></li>
       </ul>
       <h2 class="text-muted"><a ui-sref="welcome">What CAN Marisa Eat?</a></h2>
     </div>
@@ -38,6 +39,7 @@
   <!-- foods App -->
   <script src="app/js/app.js"></script>
   <!-- Controllers -->
+  <script src="app/js/controllers/nav_ctrl.js"></script>
   <script src="app/js/controllers/foods_ctrl.js"></script>
 
 </body>

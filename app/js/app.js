@@ -9,9 +9,4 @@ app.config(function($stateProvider, $urlRouterProvider) {
       templateUrl: viewsPath+"/index/welcome.html",
       controller: "FoodsCtrl"
     })
-    // .state('sign_up_path', {
-    //   url: "/users/sign_up",
-    //   templateUrl: viewsPath+"/auth/sign_up.html",
-    //   controller: "AuthCtrl"
-    // })
 });
