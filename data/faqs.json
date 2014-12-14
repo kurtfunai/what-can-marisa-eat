@@ -27,6 +27,10 @@
     {
       "question": "Marisa is allergic to shellfish but I've seen her eat oysters/mussels/clams.",
       "answer": "Despite the shell, clams, oysters, scallops, and mussels are all mollusks. Totally safe."
+    },
+    {
+      "question": "Does all the food I am serving have to be organic/locally grown?",
+      "answer": "Absolutely not. We definitely do not expect anyone to buy organic food on our behalf. That said, it's always great to support your local farmers' market."
     }
   ]
 }

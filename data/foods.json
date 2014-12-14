@@ -6,14 +6,12 @@
     {"allergy": "Food + Exercise", "description": "Believe it or not - it's true. Marisa has Exercise-Induced Anaphylaxis, a rare condition that causes a similar reaction to a peanut allergy. Usually a 1-2 hour wait after eating a meal is necessary before she can hit the dance floor." }
   ],
   "food_allergies": [
-    {"allergy": "Gluten", "description": "I'm not sure how she manages without beer, but she does. She actively avoids stuff like bread, wheat pasta, pizza, flour, etc." },
-    {"allergy": "Soy", "description": "Keep your tofu and soya sauce in the fridge." },
-    {"allergy": "Potato", "description": "Much bloating. Much crankiness." },
+    {"allergy": "Soy", "description": "Just like peanuts, soy beans are a legume, and can sometimes cause reactions. Keep your tofu and soya sauce in the fridge." },
     {"allergy": "Beans", "description": "The magical fruit. The more you eat the more you... nevermind." },
-    {"allergy": "Peas", "description": "" },
-    {"allergy": "Lentils", "description": "" },
     {"allergy": "Corn", "description": "" },
     {"allergy": "Quinoa", "description": "" },
+    {"allergy": "Lentils", "description": "" },
+    {"allergy": "Peas", "description": "" },
     {"allergy": "Raw fruits and veggies", "description": "Marisa is really allergic to trees/plants. Like... really allergic. This is actually the reason that she has most of the other allergies listed here (tree nuts, etc). Certain raw fruits and veggies cause her to have a mild allergic reaction. Don't worry about hiding these away, but just know that she may avoid them. I cannot even keep track of which ones cause this. I think celery and apples?" }
   ]
 }
